@@ -288,6 +288,7 @@ div.promo h3{
 .plan{
     margin-top: 40px;
     font-family: "Trebuchet MS";
+    min-height: 600px;
 }
 
 
@@ -296,6 +297,7 @@ div.promo h3{
 
 .contact{
     margin-top: 40px;
+    min-height: 600px;
 }
 .contact form{
     text-align: center;
