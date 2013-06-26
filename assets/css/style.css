@@ -6,7 +6,9 @@ src: url('../fonts/UNIVERNB.TTF')
 body{
 	//margin-top: -10px;
 }
-
+.container{
+    //width: 940px;
+}
 /*  div.container.top_line  */
 
 header.top_menu{
@@ -26,7 +28,7 @@ div.top_line ul li{
 }
 div.top_line ul li a{
 	font-family: "Trebuchet MS";
-	font-weight: bold;
+	//font-weight: bold;
 	color: black;
 	font-size: 1em;
 }
@@ -35,7 +37,8 @@ div.top_line ul li{
 }
 div.top_line ul li a:hover{
 	text-decoration: none;
-	color: white;
+	color: rgb(176, 194, 174);
+    //font-weight: normal;
 }
 
 /*  nav.navmenu */
@@ -67,8 +70,9 @@ nav a#pull {
 nav a#pull:hover{
 	text-decoration: none;
 }
-nav a:hover{
+nav.navmenu a:hover{
 	text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -180,10 +184,57 @@ article.photo{
 }
 
 article.photo img{
-	//width: 100%;
+	width: 100%;
+
+}
+
+article.intro{
+    margin-top: 30px;
+}
+article.intro h1{
+    font-family: universnb;
+    color: #447a1c;
+}
+
+.main{
+    margin-top: 20px;
+}
+article.galerie h3{
+    font-family: universnb;
+    color: #447a1c;    
+}
+article.adresse h3{
+    font-family: universnb;
+    color: #447a1c;  
+    margin-bottom: 30px;  
+}
+article.adresse p{
+    font-family: universnb;
+    color: #447a1c; 
 }
 
 
+footer{
+    margin-top: 30px;
+    background: url('../img/footer_10.jpg') repeat-x;
+    width: 100%;
+    height: 66px;
+}
+footer p{
+    padding-top: 29px;
+    color: #cbd0ae;
+    text-align: center;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+}
+.span3 img {
 
-
-
+}   
+.ligne2{
+    padding-top: 20px;
+}
+.photo{
+    //background: url("../img/fleurdetiare_03.jpg") no-repeat;
+    //height: 100%;
+    //width: 100%;
+}
